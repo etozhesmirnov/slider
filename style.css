@@ -1,0 +1,50 @@
+* {
+    border: 1px red solid;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    width: 200px;
+    height: 100%;
+    transition: 0.5s;
+    font-size: 25px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* border: 5px green solid; */
+}
+.hiddenLeft {
+    margin-left: -200px;
+    z-index: 0;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.hiddenRight {
+    margin-left: 300px;
+    height: 100px;
+    z-index: 0;
+    width: 100px;
+    margin-top: 50px;
+}
+.current {
+    margin-left: 0;
+    z-index: 2;
+    width: 200px;
+    height: 100%;
+}
+.slider {
+    width: 620px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    /* border: 5px blue solid; */
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    /* overflow: hidden; */
+}
